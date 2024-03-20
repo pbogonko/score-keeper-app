@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+
+
+.title{
+    padding: 20px;
+}
+.main{
+    
+ 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(0,135,255);
+    
+    display: flex;
+}
+
+
+.mancity{
+    width:50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid white;
+    
+    
+}
+.liverpool{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    padding-bottom: 5px;
+}
+.mancity h4{
+    padding-bottom: 30px;
+}
+.liverpool h4{
+    padding-bottom: 25px;
+}
+.reset{
+   margin-left: 42%; 
+ 
+    width:80px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 10%;
+    border: none;
+    margin-left: 48%;
+    font-weight: bold;
+   
+}
+button:hover{
+    color: gray;
+}
+
+.btns{
+   
+    width:130px;
+    
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+ 
+}
+h4,h1{
+    color: white;
+}
+h3{
+    background-color: white;
+    width: 100%;
+}
+@media(max-width:456px){
+    h1{
+    color: red;
+}
+.main{
+    
+    display:flex;
+    flex-direction: column;
+    border: none;
+}
+.liverpool{
+    width: 100%;
+}
+.mancity{
+    width: 100%;
+    border: none;
+}
+}
+body{
+    background-color: rgb(0,135,255);
+}
+
+

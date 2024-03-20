@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
+    
+    
+</head>
+<body>
+    
+    <h3 class="title">score-keeper-app</h3>
+    <main class="container">
+        <div class="main">
+            <div class="mancity">
+                <img src="mancity1.png" alt="mancity logo" width="150">
+                <h4>Manchester City</h4>
+                <h1 class="score" id="goal-manc">0</h1>
+            
+            
+               <button type="submit" class="btns" onclick="city_goal()">GOAL</button>
+               <h1 class="score" id="foul-manc">0</h1>
+               <button type="submit" class="btns" onclick="city_foul()">FOUL</button>
+            </div>
+            <div class="liverpool">
+                <img src="liverpool.png" width="140" height="160">
+                <h4>Liver Pool</h4>
+                <h1 class="score" id="goal-liv">0</h1>
+                <button type="submit" class="btns" onclick="liv_goal()">GOAL</button>
+                <h1 class="score" id="foul-liv">0</h1>
+                <button type="submit" class="btns" onclick="foul()">FOUL</button>
+            </div>
+        
+        </div>
+        <button type="submit" class="reset" onclick="reset()">RESET</button>
+    </div>
+   </main>
+</body>
+</html>
